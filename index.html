@@ -234,6 +234,24 @@
       margin-bottom: 40px;
     }
 
+    .hero-image {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid var(--md-outline);
+      margin: 0 auto 24px;
+      display: block;
+      box-shadow: var(--md-shadow-sm);
+    }
+
+    @media (min-width: 640px) {
+      .hero-image {
+        width: 160px;
+        height: 160px;
+      }
+    }
+
     /* ── IMPACT STAT ── */
     .stat-card {
       display: inline-flex;
@@ -530,6 +548,8 @@
   <section class="hero">
     <div class="container">
       <div class="hero-eyebrow">Open to Remote Opportunities</div>
+      
+      <img src="rj-headshot.jpg" alt="RJ Enriquez" class="hero-image" />
 
       <h1>Data That Moves<br />Business Forward</h1>
       <p class="hero-subtitle">Data Analyst &amp; Power BI Engineer · San Antonio / New Braunfels, TX</p>
